@@ -2,8 +2,11 @@
 
  A todo-list application, made using flutter
 
+
  Tools used: Visual Studio Code
+
  Languages: Dart, html, Java
+
 
  Instructions to operate app
  - Double tap a task to view details.
@@ -11,6 +14,7 @@
  - Check the task, to mark it as completed
  - Hold the text to delete the task.
 
+Screenshots added in the 'screenshots' folder shows each features of the app
 
 
 
