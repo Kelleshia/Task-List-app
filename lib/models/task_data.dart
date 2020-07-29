@@ -8,10 +8,9 @@ final LocalStorage localStorage = LocalStorage(
 
 class TaskData extends ChangeNotifier {
   List<Task> tasks = [
-    Task(title: 'This Is A Task, Double tap to view details.'),
-    Task(title: 'Click the + button, to add a new task'),
-    Task(title: 'Check the task, to mark it complete'),
-    Task(title: 'Hold the text to delete the task.'),
+    Task(title: 'Go Biking'),
+    Task(title: 'Bake a Cake'),
+    Task(title: 'Read a book'),
   ];
 
   Future<void> _saveToStorage() async {

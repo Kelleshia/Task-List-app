@@ -101,14 +101,14 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
 
                   setState(() {});
                 },
-                subtitle: Text('Remind me about this item'),
+                subtitle: Text('Reminder Set'),
               ),
               SizedBox(
                 height: 10.0,
               ),
               Container(
                   child: remindMe
-                      ? Text('Reminder set at: ' +
+                      ? Text('Reminder Date: ' +
                           DateTime(
                                   reminderDate.year,
                                   reminderDate.month,
